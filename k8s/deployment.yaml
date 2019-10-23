@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: sample-vr-node-app
-        image: gcr.io/myproject/node-app:v1
+        image: aha04612/watson-vr-nodedemo:v1.0
         command:
         ports:
           - containerPort: 3000
